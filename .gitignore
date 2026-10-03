@@ -1,0 +1,40 @@
+# dependencies
+node_modules/
+
+# env / secrets
+.env
+.env.*
+!.env.example
+
+# build output
+dist/
+dist-ssr/
+build/
+
+# generated Prisma client (run `npx prisma generate` in backend/)
+backend/src/generated/
+
+# user uploads
+backend/public/uploads/
+
+# SQLite temp files
+*.db-journal
+
+# logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# editor / OS
+.vscode/*
+!.vscode/extensions.json
+!.vscode/launch.json
+.idea/
+.DS_Store
+Thumbs.db
+*.local
+
+# Claude Code local config
+.claude/
